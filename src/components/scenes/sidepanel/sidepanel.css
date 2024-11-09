@@ -1,0 +1,10 @@
+.sidepanel {
+  border: 1px solid black;
+  background-color: aqua;
+  box-sizing: border-box;
+  width: 277px;
+}
+
+.menu-list {
+  list-style: none;
+}

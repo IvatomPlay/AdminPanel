@@ -3,7 +3,11 @@ import './sidepanel.css';
 function Sidepanel() {
   return (
     <div className="sidepanel">
-      <p>hello from sidepanel.jsx</p>
+      <ul className='menu-list'>
+        <li>Teams</li>
+        <li>Payments</li>
+        <li>Settings</li>
+      </ul>
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import './index.css';
 import Sidepanel from './components/scenes/sidepanel/Sidepanel';
+import Toppanel from './components/scenes/toppanel/Toppanel';
 
 function App() {
   return (
     <div className="app">
-      <p>hello form Api.jsx</p>
+      <Toppanel />
       <Sidepanel />
     </div>
   );
